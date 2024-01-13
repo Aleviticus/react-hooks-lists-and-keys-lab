@@ -2,8 +2,7 @@ import React from "react";
 
 function NavBar() {
   const links = ["home", "about", "projects"];
-
-  const linksElement = links.map((links) => {
+    links.map((links) => {
     return <a href={{links}}>{links}</a>
   })
 

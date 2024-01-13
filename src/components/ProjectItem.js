@@ -8,8 +8,7 @@ function ProjectItem({ name, about, technologies }) {
     <div className="project-item">
       <h3>{name}</h3>
       <p>{about}</p>
-      <div className="technologies">{technologiesList}
-      </div>
+      <div className="technologies">{technologiesList}</div>
     </div>
   );
 }
